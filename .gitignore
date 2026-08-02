@@ -1,1 +1,13 @@
  
+# Ignore the Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Ignore Python bytecode compilation files
+__pycache__/
+*.py[cod]
+
+# Ignore OS-specific system files
+.DS_Store
+Thumbs.db
